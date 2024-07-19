@@ -187,9 +187,7 @@ body{
         flex-direction: row;
         align-items: flex-start;
     }
-    .header .navbar a {
-        margin: 0.5rem 0;
-    }
+    
     .home .logo img {
         margin-top: 50px;
         width: 80%;

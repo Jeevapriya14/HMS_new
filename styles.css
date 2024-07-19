@@ -175,6 +175,7 @@ body{
 @media (max-width:450px) {
     html{
     font-size: 50%;
+    padding: 5px;
     }
     .header{
         flex-direction: row;
@@ -183,7 +184,7 @@ body{
     
     .header .navbar {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
     }
     .header .navbar a {

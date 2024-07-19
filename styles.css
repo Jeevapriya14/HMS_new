@@ -193,5 +193,6 @@ body{
     .home .logo img {
         margin-top: 50px;
         width: 80%;
+        display: flex;
     }
 }

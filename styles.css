@@ -163,7 +163,8 @@ body{
     padding: 2.5rem;
 }
 @media only screen and (max-width:770px) {
-    
+    [class*="col-"]
+
     html{
     font-size: 55.5%;
     }

@@ -180,4 +180,9 @@ body{
             width:30%;
         }
     }
+    .header .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }

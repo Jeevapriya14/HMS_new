@@ -170,15 +170,14 @@ body{
         padding: 2rem;
     }
 }
-@media (max-width:768px){
-    
-}
+
 @media (max-width:450px) {
     html{
     font-size: 50%;
     }
     .home-logo{
         img{
+            padding: 10rem;
             width:30%;
         }
     }

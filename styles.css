@@ -179,18 +179,18 @@ body{
     }
     .header{
         flex-direction: row;
-        align-items: flex-start;
+        
     }
     
     .header .navbar {
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
+        
     }
     
     .home .logo img {
         margin-top: 50px;
         width: 80%;
-        display: flex;
+        
     }
 }

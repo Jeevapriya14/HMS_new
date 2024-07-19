@@ -185,7 +185,7 @@ body{
         flex-direction: row;
         align-items: flex-start;
         /* gap: 1rem; */
-        justify-content: space-between;
+        justify-items: space-between;
     }
     .header .navbar a {
         margin: 0.5rem 0;

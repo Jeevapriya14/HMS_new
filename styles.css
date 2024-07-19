@@ -176,9 +176,11 @@ body{
     html{
     font-size: 50%;
     }
-    .logo{
-        margin-bottom: 1rem;
+    .header{
+        flex-direction: row;
+        align-items: flex-start;
     }
+    
     .header .navbar {
         display: flex;
         flex-direction: column;

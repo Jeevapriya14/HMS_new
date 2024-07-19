@@ -162,12 +162,13 @@ body{
     border: var(--border);
     padding: 2.5rem;
 }
-@media (max-width:991px) {
+@media (max-width:200px) {
     html{
     font-size: 55.5%;
     }
     .header{
         padding: 2rem;
+        border: 1rem;
     }
 }
 

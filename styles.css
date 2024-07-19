@@ -162,7 +162,7 @@ body{
     border: var(--border);
     padding: 2.5rem;
 }
-@media (max-width:200px) {
+@media (max-width:770px) {
     html{
     font-size: 55.5%;
     }

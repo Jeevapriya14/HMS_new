@@ -161,36 +161,23 @@ body{
     border: var(--border);
     padding: 2.5rem;
 }
-@media (max-width:900px) {
 
-    /* html{
+@media (max-width:990px) {
+    html{
     font-size: 55.5%;
-    } */
+    }
     .header{
-        padding: 1rem;
-        
+        padding: 2rem;
     }
 }
 
 @media (max-width:450px) {
     html{
     font-size: 50%;
-    
     }
-    .header{
-        flex-direction: row;
-        
-    }
-    
-    .header .navbar {
-        display: flex;
-        flex-direction: row;
-        
-    }
-    
-    .home .logo img {
-        margin-top: 50px;
-        width: 80%;
-        
+    .home-logo{
+        img{
+            width:30%;
+        }
     }
 }

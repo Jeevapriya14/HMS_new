@@ -59,6 +59,7 @@ body{
     font-size: 4rem;
     color: var(--green);
     text-transform: uppercase;
+
 }
 
 .header .logo{
@@ -159,8 +160,93 @@ body{
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     border: var(--border);
-    padding: 2.5rem;
+    padding: 4.5rem;
 }
+.about .row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+.about .row .image{
+    flex: 1 1 45rem;
+
+}
+.about .row .image .img{
+    width: 100%;
+    /* padding: 4.5rem; */
+    /* margin-left: 2rem; */
+    padding-left: 20px;
+
+    
+}
+.about .row .content{
+    flex: 1 1 45rem;
+    
+    
+}
+.about .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8;
+    padding: 4.5rem;
+
+    
+}
+.about .row .content p{
+    color: var(--light-colour);
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    padding: 4.5rem;
+
+    
+}
+.contact .row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+.contact .row .image{
+    flex: 1 1 45rem;
+
+}
+.contact .row .image .img{
+    width: 100%;
+    padding: 4.5rem;
+    padding-left: 20px;
+    
+
+    
+}
+.contact .row .content{
+    flex: 1 1 45rem;
+    
+    
+}
+.contact .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8;
+    padding: 4.5rem;
+
+    
+}
+.contact .row .content address{
+    color: var(--light-colour);
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    padding-left: 10rem;
+
+    
+}
+
 
 @media (max-width:990px) {
     html{
@@ -177,18 +263,26 @@ body{
     }
     .home-logo{
         img{
-            width:30%;
+            width:50%;
+            padding-left: 3rem;
         }
+    }
+    .home .content{
+        padding: 2rem;
     }
     .header .navbar {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        gap: 1rem;
+        font-size: 10rem;
+        gap: 3rem;
+        
         /* justify-items: space-between; */
+
     }
     .header .navbar a {
         margin: 0.5rem 0;
+        padding-left:2.5rem;
     }
     .header {
         flex-direction: column;
@@ -196,5 +290,110 @@ body{
     }
     .home .logo img {
         margin-top: 50px;
+        margin-left: 90px;
+
+    }
+    .about .row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about .row .image, .about .row .content {
+        flex: 1 1 100%;
+    }
+
+    .about .row .content h3 {
+        font-size: 3rem;
+        
+    }
+
+    .about .row .content p {
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+    .icons-container .icons{
+        display:flex;
+        flex-direction: row;
+    }
+    .home {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home .content h2 {
+        font-size: 5rem;
+    }
+
+    .home .content p {
+        font-size: 3rem;
+    }
+
+    .home .content address {
+        font-size: 3rem;
+    }
+
+    .home .btn {
+        font-size: 3.5rem;
+    }
+
+    .icons-container {
+        display: flex;
+        flex-direction: row;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 2rem;
+
+    }
+
+    .icons-container .icons {
+        padding-left: 0;
+        text-align: center;
+        font-size: 2rem;
+
+    }
+    .services .heading{
+        align-items: center;
+    }
+
+    .services .box-container {
+        grid-template-columns: 1fr;
+        
+        padding-left: 5rem;
+        padding-right: 5rem;
+        font-size: 3rem;
+
+    }
+
+    .services .box-container .box {
+        padding: 5rem;
+        align-items: center;
+    }
+
+    .contact .row {
+        flex-direction: column;
+        align-items: center;
+        font-size: 3rem;
+
+    }
+
+    .contact .row .image, .contact .row .content {
+        flex: 1 1 100%;
+    }
+
+    .contact .row .content h3 {
+        font-size: 5rem;
+        
+    }
+
+    .contact .row .content address {
+        font-size: 3rem;
+        
+
+    }
+
+
 }
-}
+
